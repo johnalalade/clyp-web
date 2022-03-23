@@ -68,7 +68,7 @@ export default class Password extends Component {
                                     this.setState({
                                         password: ev.target.value
                                     })
-                                }} value={this.state.password} className="input" />
+                                }} value={this.state.password} className="input" type="password" />
                             </div>
 
                             <div className="forms-i">
@@ -77,7 +77,7 @@ export default class Password extends Component {
                                     this.setState({
                                         cPassword: ev.target.value
                                     })
-                                }} value={this.state.cPassword} className="input" />
+                                }} value={this.state.cPassword} className="input" type="password" />
                             </div>
 
                             <br />
