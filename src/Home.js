@@ -52,7 +52,7 @@ export default class User extends Component {
               <p className="name">Send money to {this.state.user.name}</p>
 
               <div className="forms-i">
-                <p className="label">Amount:</p>
+                <p className="label">Amount ({this.state.user.currency}):</p>
                 <input onChange={(ev) => {
                   this.setState({
                     amount: ev.target.value
