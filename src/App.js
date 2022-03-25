@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
           <Switch>
-            <Route path='/pay/:email/:id' component={Home}/>
+            <Route path='/pay/:username/:id' component={Home}/>
             <Route path='/retrive/:id' component={Password}/>
 
           </Switch>
