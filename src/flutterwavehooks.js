@@ -20,7 +20,7 @@ export default function FlutterwaveHook(prop) {
     customizations: {
       title: 'Clyp Pay',
       description: 'Funding Clyp account',
-      logo: 'https://www.uniconne.com/uploads/cod.jpg',
+      logo: 'https://clyp-solutio.herokuapp.com/uploads/clyp.png',
     },
   };
 
