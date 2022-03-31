@@ -9,7 +9,7 @@ export default function FlutterwaveHook(prop) {
   const config = {
     public_key: 'FLWPUBK-b73d166127557d9fc24d219eb9ac96e2-X',
     tx_ref: prop.id + Date.now(),
-    amount: prop.amount + 4,
+    amount: Number(prop.amount) + 4,
     currency: prop.currency,
     payment_options: 'card,mobilemoney,ussd,banktransfer,barter,mpesa',
     customer: {
